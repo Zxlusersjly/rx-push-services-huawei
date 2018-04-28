@@ -91,4 +91,13 @@
 <!-- ixintui -->
 <prescription type="service" class="com.ixintui.push.PushService" sender="any" />
 <prescription type="service" class="com.ixintui.push.MediateService" sender="any" />
+<!-- Ali push SDK -->
+<prescription type="service" class="com.alibaba.sdk.android.push.AliyunPushIntentService" sender="any" />
+<prescription type="service" class="com.alibaba.sdk.android.push.MsgService" sender="any" />
+<prescription type="service" class="com.alibaba.sdk.android.push.channel.CheckService" sender="any" />
+<prescription type="service" class="com.alibaba.sdk.android.push.channel.KeepChannelService" sender="any" />
+<prescription type="service" class="com.alibaba.sdk.android.push.channel.TaobaoRecvService" sender="any" />
+<prescription type="broadcast" class="com.alibaba.sdk.android.push.HuaWeiReceiver" sender="any" />
+<prescription type="broadcast" class="com.alibaba.sdk.android.push.MiPushBroadcastReceiver" sender="any" />
+<prescription type="broadcast" class="com.alibaba.sdk.android.push.SystemEventReceiver" sender="any" />
 </prescriptions>
