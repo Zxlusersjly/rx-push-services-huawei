@@ -50,8 +50,6 @@
 <!-- Low frequency push SDK -->
 <prescription type="service" class="com.tencent.qalsdk.service.QalService" sender="any" />
 <prescription type="service" class="com.tencent.qalsdk.service.QalAssistService" sender="any" />
-<prescription type="service" class="com.qq.e.comm.DownloadService" sender="any" />
-<!-- Other push SDK -->
 <!-- Mobridge -->
 <prescription type="service" class="com.mobridge.MoPushService" sender="any" />
 <!-- Grandmobile -->
