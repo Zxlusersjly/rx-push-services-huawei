@@ -101,7 +101,7 @@
 <!-- Meizu Push -->
 <prescription type="broadcast" class="com.meizu.cloud.pushsdk.SystemReceiver" sender="any" />
 <prescription type="service" class="com.meizu.cloud.pushsdk.NotificationService" sender="any" />
-<!-- Vivo Push (存疑)-->
+<!-- Vivo Push (疑)-->
 <prescription type="service" class="com.vivo.push.sdk.service.CommandClientService" sender="any" />
 <prescription type="activity" class="com.vivo.push.sdk.LinkProxyClientActivity" sender="any" />
 <!-- Oppo Push -->
