@@ -1,5 +1,12 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
-<!-- Taobao push SDK -->
+<!-- Tencent Push SDK -->
+<prescription type="broadcast" class="com.tencent.android.tpush.XGPushReceiver" sender="any" />
+<prescription type="activity" class="com.tencent.android.tpush.XGPushActivity" sender="any" />
+<prescription type="service" class="com.tencent.android.tpush.rpc.XGRemoteService" sender="any" />
+<prescription type="service" class="com.tencent.android.tpush.service.XGPushService" sender="any" />
+<prescription type="service" class="com.tencent.android.tpush.service.XGPushServiceV3" sender="any" />
+
+<!-- Taobao Push SDK -->
 <prescription type="service" class="com.taobao.accs.ChannelService" sender="any" />
 <prescription type="service" class="com.taobao.accs.ChannelService$KernelService" sender="any" />
 <prescription type="service" class="com.taobao.accs.data.MsgDistributeService" sender="any" />
@@ -7,7 +14,7 @@
 <prescription type="broadcast" class="com.taobao.accs.EventReceiver" sender="any" />
 <prescription type="broadcast" class="com.taobao.accs.ServiceReceiver" sender="any" />
 <prescription type="broadcast" class="com.taobao.agoo.AgooCommondReceiver" sender="any" />
-<!-- Igexin push SDK -->
+<!-- Igexin Push SDK -->
 <prescription type="service" class="com.igexin.dowload.DownloadService" sender="other-app" />
 <prescription type="service" class="com.igexin.sdk.PushService" sender="any" />
 <prescription type="service" class="com.igexin.sdk.PushServiceUser" sender="any" />
@@ -19,7 +26,7 @@
 <prescription type="broadcast" class="com.igexin.sdk.PushManagerReceiver" sender="any" />
 <prescription type="broadcast" class="com.igexin.getuiext.service.PayloadReceiver" sender="any" />
 <prescription type="broadcast" class="com.igexin.download.DownloadReceiver" sender="other-app" />
-<!-- Umeng push SDK -->
+<!-- Umeng Push SDK -->
 <prescription type="service" class="com.umeng.update.net.DownloadingService" sender="other-app" />
 <prescription type="service" class="com.umeng.message.UmengService" sender="any" />
 <prescription type="service" class="com.umeng.message.UmengDownloadResourceService" sender="other-app" />
@@ -27,7 +34,7 @@
 <prescription type="service" class="com.umeng.message.UmengMessageIntentReceiverService" sender="any" />
 <prescription type="service" class="com.umeng.message.UmengMessageCallbackHandlerService" sender="any" />
 <prescription type="broadcast" class="com.umeng.message.NotificationProxyBroadcastReceiver" sender="any" />
-<!-- Jpush push SDK -->
+<!-- Jpush Push SDK -->
 <prescription type="service" class="cn.jpush.android.service.PushService" sender="any" />
 <prescription type="service" class="cn.jpush.android.service.DownloadService" sender="other-app" />
 <prescription type="service" class="cn.jpush.android.service.DaemonService" sender="any" />
@@ -35,19 +42,19 @@
 <prescription type="activity" class="cn.jpush.android.ui.PopWinActivity" sender="any" />
 <prescription type="broadcast" class="cn.jpush.android.service.PushReceiver" sender="any" />
 <prescription type="broadcast" class="cn.jpush.android.service.AlarmReceiver" sender="any" />
-<!-- Baidu push SDK -->
+<!-- Baidu Push SDK -->
 <prescription type="service" class="com.baidu.android.pushservice.PushService" sender="any" />
 <prescription type="service" class="com.baidu.sapi2.share.ShareService" sender="any" />
-<!-- Huawei push SDK -->
+<!-- Huawei Push SDK -->
 <prescription type="service" class="com.huawei.deviceCloud.microKernel.push.PushMKService" sender="any" />
 <prescription type="service" class="com.huawei.deviceCloud.microKernel.push.PushBootReceiver" sender="any" />
 <prescription type="service" class="com.huawei.deviceCloud.microKernel.push.EventReceiver" sender="any" />
-<!-- Dianping push SDK -->
+<!-- Dianping Push SDK -->
 <prescription type="service" class="com.dianping.base.push.pushservice.dp.FakeService" sender="any" />
 <prescription type="service" class="com.dianping.base.push.pushservice.dp.DPPushService" sender="any" />
 <prescription type="service" class="com.dianping.base.push.pushservice.PushWakeUpJob" sender="any" />
 <prescription type="service" class="com.dianping.base.push.pushservice.MZPushService" sender="any" />
-<!-- Low frequency push SDK -->
+<!-- Low frequency Push SDK -->
 <prescription type="service" class="com.tencent.qalsdk.service.QalService" sender="any" />
 <prescription type="service" class="com.tencent.qalsdk.service.QalAssistService" sender="any" />
 <!-- Mobridge -->
@@ -89,7 +96,7 @@
 <!-- ixintui -->
 <prescription type="service" class="com.ixintui.push.PushService" sender="any" />
 <prescription type="service" class="com.ixintui.push.MediateService" sender="any" />
-<!-- Ali push SDK -->
+<!-- Ali Push SDK -->
 <prescription type="service" class="com.alibaba.sdk.android.push.AliyunPushIntentService" sender="any" />
 <prescription type="service" class="com.alibaba.sdk.android.push.MsgService" sender="any" />
 <prescription type="service" class="com.alibaba.sdk.android.push.channel.CheckService" sender="any" />
