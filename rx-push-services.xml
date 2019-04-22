@@ -5,6 +5,8 @@
 <prescription type="service" class="com.tencent.android.tpush.rpc.XGRemoteService" sender="any" />
 <prescription type="service" class="com.tencent.android.tpush.service.XGPushService" sender="any" />
 <prescription type="service" class="com.tencent.android.tpush.service.XGPushServiceV3" sender="any" />
+<prescription type="service" class="com.tencent.android.tpush.service.XGPushServiceV4" sender="any" />
+<prescription type="service" class="com.tencent.android.tpush.service.XGDaemonService" sender="any" />
 
 <!-- Taobao Push SDK -->
 <prescription type="service" class="com.taobao.accs.ChannelService" sender="any" />
@@ -108,7 +110,7 @@
 <!-- Meizu Push -->
 <prescription type="broadcast" class="com.meizu.cloud.pushsdk.SystemReceiver" sender="any" />
 <prescription type="service" class="com.meizu.cloud.pushsdk.NotificationService" sender="any" />
-<!-- Vivo Push (疑)-->
+<!-- Vivo Push -->
 <prescription type="service" class="com.vivo.push.sdk.service.CommandClientService" sender="any" />
 <prescription type="activity" class="com.vivo.push.sdk.LinkProxyClientActivity" sender="any" />
 <!-- Oppo Push -->
