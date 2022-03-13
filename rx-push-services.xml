@@ -51,6 +51,12 @@
 <prescription type="service" class="com.huawei.deviceCloud.microKernel.push.PushMKService" sender="any" />
 <prescription type="service" class="com.huawei.deviceCloud.microKernel.push.PushBootReceiver" sender="any" />
 <prescription type="service" class="com.huawei.deviceCloud.microKernel.push.EventReceiver" sender="any" />
+<prescription type="service" class="com.huawei.hms.support.api.push.service.HmsMsgService" sender="any" />
+<prescription type="service" class="org.android.agoo.huawei.HuaweiPushMessageService" sender="any" />
+<prescription type="service" class="com.igexin.sdk.HmsPushMessageService" sender="any" />
+<prescription type="broadcast" class="com.huawei.hms.support.api.push.PushMsgReceiver" sender="any" />
+<prescription type="broadcast" class="com.huawei.hms.support.api.push.PushReceiver" sender="any" />
+<prescription type="broadcast" class="com.huawei.hms.support.api.push.PushEventReceiver" sender="any" />
 <!-- Dianping Push SDK -->
 <prescription type="service" class="com.dianping.base.push.pushservice.dp.FakeService" sender="any" />
 <prescription type="service" class="com.dianping.base.push.pushservice.dp.DPPushService" sender="any" />
@@ -104,17 +110,27 @@
 <prescription type="service" class="com.alibaba.sdk.android.push.channel.CheckService" sender="any" />
 <prescription type="service" class="com.alibaba.sdk.android.push.channel.KeepChannelService" sender="any" />
 <prescription type="service" class="com.alibaba.sdk.android.push.channel.TaobaoRecvService" sender="any" />
+<prescription type="service" class="com.taobao.accs.internal.AccsJobService" sender="any" />
 <prescription type="broadcast" class="com.alibaba.sdk.android.push.HuaWeiReceiver" sender="any" />
 <prescription type="broadcast" class="com.alibaba.sdk.android.push.MiPushBroadcastReceiver" sender="any" />
 <prescription type="broadcast" class="com.alibaba.sdk.android.push.SystemEventReceiver" sender="any" />
 <!-- Meizu Push -->
-<prescription type="broadcast" class="com.meizu.cloud.pushsdk.SystemReceiver" sender="any" />
 <prescription type="service" class="com.meizu.cloud.pushsdk.NotificationService" sender="any" />
-<!-- Vivo Push -->
+<prescription type="broadcast" class="com.meizu.cloud.pushsdk.SystemReceiver" sender="any" />
+<prescription type="broadcast" class="com.meizu.cloud.pushsdk.MzPushSystemReceiver" sender="any" />
+<prescription type="broadcast" class="com.igexin.sdk.FlymePushReceiver" sender="any" />
+<!-- VIVO Push -->
 <prescription type="service" class="com.vivo.push.sdk.service.CommandClientService" sender="any" />
+<prescription type="broadcast" class="org.android.agoo.vivo.PushMessageReceiverImpl" sender="any" />
 <prescription type="activity" class="com.vivo.push.sdk.LinkProxyClientActivity" sender="any" />
-<!-- Oppo Push -->
+<!-- OPPO Push -->
 <prescription type="service" class="com.coloros.mcssdk.PushService" sender="any" />
+<prescription type="service" class="com.heytap.msp.push.service.DataMessageCallbackService" sender="any" />
+<prescription type="service" class="com.heytap.msp.push.service.CompatibleDataMessageCallbackService" sender="any" />
+<prescription type="service" class="com.heytap.mcssdk.AppPushService" sender="any" />
+<prescription type="service" class="com.heytap.mcssdk.PushService" sender="any" />
+<prescription type="service" class="com.igexin.sdk.OppoAppPushService" sender="any" />
+<prescription type="service" class="cn.jpush.android.service.PluginOppoPushService" sender="any" />
 <!-- 逸创云推送 -->
 <prescription type="service" class="com.kf5.sdk.im.service.MessageService" sender="any" />
 </prescriptions>
