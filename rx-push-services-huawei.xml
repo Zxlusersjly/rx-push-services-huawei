@@ -47,16 +47,6 @@
 <!-- Baidu Push SDK -->
 <prescription type="service" class="com.baidu.android.pushservice.PushService" sender="any" />
 <prescription type="service" class="com.baidu.sapi2.share.ShareService" sender="any" />
-<!-- Huawei Push SDK -->
-<prescription type="service" class="com.huawei.deviceCloud.microKernel.push.PushMKService" sender="any" />
-<prescription type="service" class="com.huawei.deviceCloud.microKernel.push.PushBootReceiver" sender="any" />
-<prescription type="service" class="com.huawei.deviceCloud.microKernel.push.EventReceiver" sender="any" />
-<prescription type="service" class="com.huawei.hms.support.api.push.service.HmsMsgService" sender="any" />
-<prescription type="service" class="org.android.agoo.huawei.HuaweiPushMessageService" sender="any" />
-<prescription type="service" class="com.igexin.sdk.HmsPushMessageService" sender="any" />
-<prescription type="broadcast" class="com.huawei.hms.support.api.push.PushMsgReceiver" sender="any" />
-<prescription type="broadcast" class="com.huawei.hms.support.api.push.PushReceiver" sender="any" />
-<prescription type="broadcast" class="com.huawei.hms.support.api.push.PushEventReceiver" sender="any" />
 <!-- Dianping Push SDK -->
 <prescription type="service" class="com.dianping.base.push.pushservice.dp.FakeService" sender="any" />
 <prescription type="service" class="com.dianping.base.push.pushservice.dp.DPPushService" sender="any" />
@@ -131,6 +121,13 @@
 <prescription type="service" class="com.heytap.mcssdk.PushService" sender="any" />
 <prescription type="service" class="com.igexin.sdk.OppoAppPushService" sender="any" />
 <prescription type="service" class="cn.jpush.android.service.PluginOppoPushService" sender="any" />
+<!-- Xiaomi Push -->
+<prescription type="service" class="com.xiaomi.push.service.XMPushService" sender="any" />
+<prescription type="service" class="com.xiaomi.push.service.XMJobService" sender="any" />
+<prescription type="service" class="com.xiaomi.push.sdk.service.MessageHandleService" sender="any" />
+<prescription type="service" class="com.xiaomi.push.sdk.service.PushMessageHandler" sender="any" />
+<prescription type="broadcast" class="com.xiaomi.push.service.broadcasts.NetworkStatusReceiver" sender="any" />
+<prescription type="broadcast" class="com.xiaomi.push.service.broadcasts.PingReceiver" sender="any" />
 <!-- 逸创云推送 -->
 <prescription type="service" class="com.kf5.sdk.im.service.MessageService" sender="any" />
 </prescriptions>
